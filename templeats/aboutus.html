@@ -7,45 +7,90 @@
     <title>المؤسسين</title>
 </head>
 <body> 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Markazi+Text:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&display=swap');
-        *{
-            margin: 0;
-            box-sizing: border-box;
-        }
-        body{
-text-align: center;
-        margin: 0;
-    font-family: Arial, sans-serif;
-    background: #4f4f4f;
-    color: white;
+   
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Markazi+Text:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&display=swap');
     
-}
-nav{
-    margin: 10px;
-    padding: 10px;
-}
-nav a{
-    text-decoration: none;
-    text-align: center;
-margin: 10px;
-}
-.fb , h1{
-    text-align: center;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 520px; /* Adjusts the box's position from the left */
-    max-width: 400px;
-    padding: 40px;
-    background-color: #ffffff;
-    border: none solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: black;
-    font-size: 30px;
-}
-    </style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background: #4f4f4f;
+        color: white;
+    }
+
+    nav {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    nav a {
+        text-decoration: none;
+        margin: 10px;
+        padding: 10px 15px;
+        background-color: #ffffff;
+        color: #333;
+        border-radius: 8px;
+        font-size: 18px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+        background-color: #08e108;
+        color: #fff;
+    }
+
+    .fb, h1 {
+        text-align: center;
+        margin: 30px auto;
+        max-width: 400px;
+        width: 90%; /* Responsive width */
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        color: black;
+        font-size: 24px; /* Adjusted for better readability on small screens */
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        nav a {
+            font-size: 16px;
+            padding: 8px 10px;
+        }
+
+        .fb, h1 {
+            font-size: 20px;
+            padding: 15px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav a {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .fb, h1 {
+            font-size: 18px;
+            padding: 10px;
+        }
+    }
+</style>
+
 <div class="start">
     <h1>حسابات مؤسسين موقع الحاد ليبيا للتواصل </h1>
     <div class="fb">
