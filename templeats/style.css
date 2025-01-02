@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Markazi+Text:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&display=swap');
+*{
+    margin-top: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Arabic", serif;
+    font-optical-sizing: auto;
+   
+}
+.start-page {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 520px; /* Adjusts the box's position from the left */
+    max-width: 400px;
+    padding: 40px;
+    background-color: #ffffff;
+    border: none solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #4f4f4f;
+    
+}
+
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #a9a9a9;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+}
+
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    transition: color 0.3s;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    color: #08e108;
+}
+.site-footer {
+    margin-top: auto; /* Ensures the footer is pushed to the bottom */
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+}
+
+.site-footer p {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pp{
+    margin-top: 170px;
+    text-align: center;
+    color: white;
+}
